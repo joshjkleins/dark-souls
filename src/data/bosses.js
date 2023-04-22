@@ -1,7 +1,7 @@
 const allBossInfo = [
     {
         name: "Iudex Gundyr",
-        imageUrl: "./src/assets/Iudex.jpg",
+        imageUrl: "/assets/Iudex.jpg",
         weaknesses: ["Strike", "Lightning", "Frostbite", "Farron Greatsword", "Fire", "Frostbite"],
         resistances: ["Dark", "Bleed"],
         immune: ["Poison", "Toxic"],
@@ -11,7 +11,7 @@ const allBossInfo = [
     },
     {
         name: "Vordt of the Boreal Valley",
-        imageUrl: "./src/assets/Vordt.webp",
+        imageUrl: "/assets/Vordt.webp",
         weaknesses: ["Dark", "Strike"],
         resistances: ["Standard", "Slash", "Thrust", "Magic"],
         immune: ["Poison", "Toxic", "Bleed", "Frostbite"],
@@ -21,7 +21,7 @@ const allBossInfo = [
     },
     {
         name: "Curse-Rotted Greatwood",
-        imageUrl: "./src/assets/Greatwood.webp",
+        imageUrl: "/assets/Greatwood.webp",
         weaknesses: ["Slash", "Thrust", "Fire"],
         resistances: ["None"],
         immune: ["Poison", "Toxic", "Bleed", "Frostbite"],
@@ -31,7 +31,7 @@ const allBossInfo = [
     },
     {
         name: "Crystal Sage",
-        imageUrl: "./src/assets/CrystalSage.webp",
+        imageUrl: "/assets/CrystalSage.webp",
         weaknesses: ["Slash", "Thrust", "Standard", "Strike", "Lightning", "Dark", "Fire", "Poison", "Toxic", "Frostbite"],
         resistances: ["Magic"],
         immune: ["None"],
@@ -41,7 +41,7 @@ const allBossInfo = [
     },
     {
         name: "Deacons of the Deep",
-        imageUrl: "./src/assets/Deacons.jpg",
+        imageUrl: "/assets/Deacons.jpg",
         weaknesses: ["Slash", "Thrust", "Standard", "Strike", "Frostbite"],
         resistances: ["Dark", "Bleed", "Magic", "Poison", "Toxic"],
         immune: ["None"],
@@ -51,7 +51,7 @@ const allBossInfo = [
     },
     {
         name: "Abyss Watchers",
-        imageUrl: "./src/assets/AbyssWatchers.jpg",
+        imageUrl: "/assets/AbyssWatchers.jpg",
         weaknesses: ["Lightning"],
         resistances: ["Dark", "Bleed"],
         immune: ["Poison", "Toxic"],
@@ -61,7 +61,7 @@ const allBossInfo = [
     },
     {
         name: "High Lord Wolnir",
-        imageUrl: "./src/assets/Wolnir.webp",
+        imageUrl: "/assets/Wolnir.webp",
         weaknesses: ["Strike", "Blessed Weapon"],
         resistances: ["Dark", "Poison", "Toxic"],
         immune: ["Bleed", "Frostbite"],
@@ -71,7 +71,7 @@ const allBossInfo = [
     },
     {
         name: "Old Demon King",
-        imageUrl: "./src/assets/DemonKing.webp",
+        imageUrl: "/assets/DemonKing.webp",
         weaknesses: ["Dark"],
         resistances: ["Fire", "Poison", "Toxic"],
         immune: ["Bleed", "Frostbite"],
@@ -81,7 +81,7 @@ const allBossInfo = [
     },
     {
         name: "Pontiff Sulyvahn",
-        imageUrl: "./src/assets/Pontiff.webp",
+        imageUrl: "/assets/Pontiff.webp",
         weaknesses: ["Thrust", "Fire", "Lightning", "Dark"],
         resistances: ["Frostbite", "Poison", "Toxic", "Bleed"],
         immune: ["None"],
@@ -91,7 +91,7 @@ const allBossInfo = [
     },
     {
         name: "Aldrich, Devourer of Gods",
-        imageUrl: "./src/assets/Aldrich.jpg",
+        imageUrl: "/assets/Aldrich.jpg",
         weaknesses: ["Thrust", "Fire", "Lightning"],
         resistances: ["Frostbite", "Dark", "Magic", "Bleed"],
         immune: ["Poison", "Toxic"],
@@ -101,7 +101,7 @@ const allBossInfo = [
     },
     {
         name: "Yhorm the Giant",
-        imageUrl: "./src/assets/Yhorm.jpg",
+        imageUrl: "/assets/Yhorm.jpg",
         weaknesses: ["Dark", "Lightning"],
         resistances: ["Slash", "Thrust"],
         immune: ["Poison", "Toxic", "Fire", "Bleed", "Frostbite"],
@@ -111,7 +111,7 @@ const allBossInfo = [
     },
     {
         name: "Dancer of the Boreal Valley",
-        imageUrl: "./src/assets/Dancer.jpg",
+        imageUrl: "/assets/Dancer.jpg",
         weaknesses: ["Dark", "Strike", "Lightning"],
         resistances: ["Bleed"],
         immune: ["Poison", "Toxic", "Frostbite"],
@@ -121,7 +121,7 @@ const allBossInfo = [
     },
     {
         name: "Oceiros, the Consumed King",
-        imageUrl: "./src/assets/Oceiros.png",
+        imageUrl: "/assets/Oceiros.png",
         weaknesses: ["Frostbite", "Lightning"],
         resistances: ["Bleed", "Magic"],
         immune: ["Poison", "Toxic"],
@@ -131,7 +131,7 @@ const allBossInfo = [
     },
     {
         name: "Champion Gundyr",
-        imageUrl: "./src/assets/Gundyr.jpg",
+        imageUrl: "/assets/Gundyr.jpg",
         weaknesses: ["Strike", "Bleed", "Frostbite", "Lightning"],
         resistances: ["Slash", "Poison", "Toxic"],
         immune: ["None"],
@@ -141,7 +141,7 @@ const allBossInfo = [
     },
     {
         name: "Dragonslayer Armour",
-        imageUrl: "./src/assets/Dragonslayer.jpg",
+        imageUrl: "/assets/Dragonslayer.jpg",
         weaknesses: ["Strike","Frostbite"],
         resistances: ["Slash", "Dark", "Lightning"],
         immune: ["Poison", "Toxic", "Bleed"],
@@ -151,7 +151,7 @@ const allBossInfo = [
     },
     {
         name: "Lothric",
-        imageUrl: "./src/assets/Lothric.jpg",
+        imageUrl: "/assets/Lothric.jpg",
         weaknesses: ["Frostbite", "Lightning", "Magic"],
         resistances: ["Dark"],
         immune: ["Poison", "Toxic"],
@@ -161,7 +161,7 @@ const allBossInfo = [
     },
     {
         name: "Ancient Wyvern",
-        imageUrl: "./src/assets/Wyvern.webp",
+        imageUrl: "/assets/Wyvern.webp",
         weaknesses: ["Plunging Attack", "Frostbite", "Lightning", "Thrust"],
         resistances: ["Poison", "Toxic", "Bleed", "Fire", "Standard", "Strike", "Slash"],
         immune: ["None"],
@@ -171,7 +171,7 @@ const allBossInfo = [
     },
     {
         name: "King of the Storm",
-        imageUrl: "./src/assets/Storm.jpg",
+        imageUrl: "/assets/Storm.jpg",
         weaknesses: ["Frostbite", "Lightning"],
         resistances: ["Poison", "Toxic", "Bleed", "Fire"],
         immune: ["None"],
@@ -181,7 +181,7 @@ const allBossInfo = [
     },
     {
         name: "Nameless King",
-        imageUrl: "./src/assets/Nameless.jpg",
+        imageUrl: "/assets/Nameless.jpg",
         weaknesses: ["Fire", "Dark"],
         resistances: ["Bleed", "Frostbite", "Lightning"],
         immune: ["Poison", "Toxic"],
@@ -191,7 +191,7 @@ const allBossInfo = [
     },
     {
         name: "Soul of Cinder(Phase 1)",
-        imageUrl: "./src/assets/CinderOne.jpg",
+        imageUrl: "/assets/CinderOne.jpg",
         weaknesses: ["Lightning", "Dark"],
         resistances: ["Bleed", "Fire"],
         immune: ["Poison", "Toxic"],
@@ -201,7 +201,7 @@ const allBossInfo = [
     },
     {
         name: "Soul of Cinder(Phase 2)",
-        imageUrl: "./src/assets/CinderTwo.jpg",
+        imageUrl: "/assets/CinderTwo.jpg",
         weaknesses: ["Lightning", "Dark"],
         resistances: ["Bleed", "Fire"],
         immune: ["Poison", "Toxic"],

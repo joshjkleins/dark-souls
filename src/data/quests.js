@@ -9,7 +9,7 @@ const allQuestInfo = [
             "Meet and fight Hawkwood at the Abyss Watchers bonfire, losing to Hawkwood will cause you to lose your dragon stones. Make sure to have some Homeward Bones or an extra save so you wont lose them. (If you die to Hawkwood your Dragon Stones are NOT lost permanently. Once you kill him they are returned to you)",
             "Sometime after defeating him (shield should be available right after he leaves or after you reach Central Irithyll bonfire), his shield can be located outside Firelink Shrine to the left (right if facing Firelink,) guarded by an undead dog."
         ],
-        imageUrl: "./src/assets/Hawkwood.webp"
+        imageUrl: "/assets/Hawkwood.webp"
     },
     {
         name: "Greirat",
@@ -20,7 +20,7 @@ const allQuestInfo = [
            "His second scavenging mission becomes available after crossing the bridge between the Catacombs and the Boreal Valley. He will die on this mission, unless one of these conditions matches: Siegward of Catarina is sitting by the kitchen fireplace in Irithyll. Don't talk to Siegward and progress past Pontiff Sulyvahn into the Irythill Dungeon, which will move Siegward to his next area. Or you haven't bought Siegward's armor from Patches and inform Patches of his destination after you send Greirat on his mission. If you already defeated Pontiff Sulyvahn, you won't have the option to tell Patches where Greirat went, so he won't save him. IMPORTANT: You also need to defeat any boss that ISN'T Pontiff (e.g., the Old Demon King) after telling Patches where Greirat went. If this is not done, Patches will NOT leave Firelink despite also not selling you anything (he will just stand there and repeat a single line about Greirat over and over). Defeating Pontiff, in this case, will result in Greirat dying and his body will show up in the sewer area. Note that Greirat will be doomed in these cases: Patches will not rescue Greirat - even if you send Greirat on his second outing after the Yhorm the Giant boss fight, and Siegward has died. If you talked to Siegward in Irithyll: Do not kill Alva the Spurned, who invades when embered — just before the Irithyll Dungeon Bonfire. Do not proceed into Irithyll Dungeon. It has been reported that you may light that bonfire, if perhaps Alva the Spurned has not been killed. Bug/Glitch: Remove Siegward's armor from your inventory before finding Siegward in the well or encountering Patches in the Cathedral. If Patches' spawn at the Cathedral of the Deep or Firelink Shrine are bugged and you can't purchase Siegward's armor: it might be possible to give Siegward the armor that you have. If this succeeds, it has been reported that buying the armor again from Patches might fail the quest. Kill any boss to complete his scavenging mission (Pontiff Sulyvahn is simplest, but the Old Demon King or Champion's Gravetender & Gravetender Greatwolf works too). If you successfully saved him, he'll return safely to Firelink Shrine immediately after killing the boss; otherwise you can find Greirat's Ashes in the sewer area under the kitchen in Irithyll.",
            "Third Outing Tried and Failed: Killed Yoel of Londor upon meeting, Leonhard, Londor Pale Shade invasions, and Yellowfinger Heysel. Waited until after Twin Princes boss fight to send Greirat, still failed. Player Notes: He will request to leave for a third time to Lothric Castle. He will die if he goes; there is no known way to save him. Patches will ask where Greirat went, but this only causes Patches to disappear for a time. Patches will return later and add one Hidden Blessing to his shop inventory, while failing to save Greirat. If you complete Step 5, Greirat's Ashes can be found on the roof at the Grand Archives, after jumping down where you see a group of Corvians. Giving Greirat's Ashes to the Shrine Handmaid will allow her to sell Exploding Bolts, Splintering Bolts, and Lightning Urns along with every other item he used to sell. Additionally, any items which were sold by both NPCs (like Firebombs) are overwritten by Greirat's lower prices (50 souls for a Firebomb, instead of 100). Obtaining Greirat's Ashes through killing Greirat in Firelink Shrine will only unlock the wares that he was selling before he died. Also, if you decide to kill Greirat while both Patches and Greirat are in Firelink Shrine it will turn Patches hostile."
         ],
-        imageUrl: "./src/assets/Grierat.webp"
+        imageUrl: "/assets/Grierat.webp"
     },
     {
         name: "Leonhard",
@@ -34,7 +34,7 @@ const allQuestInfo = [
             "Go to Gwynevere's bed chamber, above the Aldrich, Devourer of Gods bonfire.  Here you will receive a prompt to use the Black Eye Orb to invade Leonhard.",
             "End: Kill him here to obtain his hat (Silver Mask), Soul of Rosaria (use to revive her or to purchase Bountiful Sunlight miracle from Ludleth at Firelink Shrine), and the Crescent Moon Sword.",
         ],
-        imageUrl: "./src/assets/Leonhard.jpg"
+        imageUrl: "/assets/Leonhard.jpg"
     },
     {
         name: "Fire Keeper",
@@ -45,7 +45,7 @@ const allQuestInfo = [
             "Obtain Eyes of a Fire Keeper in Untended Graves and give it to the Fire Keeper.",
             "There will be a summon sign after you defeat Soul of Cinder which summons the Fire Keeper for the End of Fire ending."
         ],
-        imageUrl: "./src/assets/FireKeeper.jpg"
+        imageUrl: "/assets/FireKeeper.jpg"
     },
     {
         name: "Siegward of Catarina",
@@ -58,7 +58,7 @@ const allQuestInfo = [
             "Freeing him will end his questline and Siegward will assist you in the boss fight against Yhorm.",
             "After assistance with Yhorm, speak to him until he decides to sleep. Upon reloading the area and returning to the throne room all of his equipment can be found on the ground."
         ],
-        imageUrl: "./src/assets/Siegward.webp"
+        imageUrl: "/assets/Siegward.webp"
     },
     {
         name: "Patches",
@@ -69,7 +69,7 @@ const allQuestInfo = [
             "If he's nowhere to be seen in the previous 2 locations (Tower or Cathedral of the Deep) you can find him in Firelink Shrine after you defeat the Abyss Watchers.",
             "Patches will save Greirat after a certain point in the story. When Greirat leaves on his second scavenger mission, Patches will refuse to sell you any items until you tell him where Greirat has gone. He wants to repay his depth back to Greirat. Needs confirmation. After killing Pontiff Sulyvahn, Patches ceases to pester you for Greirat's location, implying he found him. He will live however, if you saved Siegward of Catarina in Cathedral of the Deep or if you haven't bought any of the Siegward's armor back from Patches."
         ],
-        imageUrl: "./src/assets/Patches.jpg"
+        imageUrl: "/assets/Patches.jpg"
     },
     {
         name: "Irina & Eygon of Carim",
@@ -82,7 +82,7 @@ const allQuestInfo = [
             "If you want the good ending you only need to give her the holy tomes. After the eclipse she will be in the firekeeper tower that you can access with the firelink shrine key from the maiden. You can buy Eygon's armor from the maiden and his weapons can be found in Irina's cell from the beginning of the quest.",
             "If you want the bad ending you have to give her the dark tomes. She will disappear and you can find her outside of the Iudex Gundyr bonfire(Proped up behind door leading to Firelink Shrine). You need to fight Eygon and bring her back to the firelink shrine. At this point she is completely absorbed by the darkness and when buying and equipping Eygon's gloves she will think you are Eygon and wants you to kill her."
         ],
-        imageUrl: "./src/assets/IrinaEygon.jpg"
+        imageUrl: "/assets/IrinaEygon.jpg"
     },
     {
         name: "Sirris of the Sunless Realms",
@@ -100,7 +100,7 @@ const allQuestInfo = [
             "If Sirris or her summon signs do not appear be sure to reload the area or progress in the story. Both her summon signs will be 100% available after the Dragonslayer Armor boss fight.",
             "Joining Rosaria's Fingers will end her quest line and make her an enemy"
         ],
-        imageUrl: "./src/assets/Sirris.jpg"
+        imageUrl: "/assets/Sirris.jpg"
     },
     {
         name: "Anri of Astora",
@@ -114,7 +114,7 @@ const allQuestInfo = [
             "If done right, Yuria of Londor, located in the main bonfire next to Yoel's body will tell you your spouse is ready",
             "Go to the Darkmoon chamber and finish the ritual"
         ],
-        imageUrl: "./src/assets/Anri.webp"
+        imageUrl: "/assets/Anri.webp"
     },
     {
         name: "Orbeck of Vinheim",
@@ -125,7 +125,7 @@ const allQuestInfo = [
             "After the boss fight, loot Orbeck's Ashes from the Grand Archives.",
             "Give the ashes to either the Shrine Handmaid, unlocking the ability to buy his equipment or to Yuria of Londor for the Morion Blade."
         ],
-        imageUrl: "./src/assets/Orbeck.jpg"
+        imageUrl: "/assets/Orbeck.jpg"
     }
 ]
 
