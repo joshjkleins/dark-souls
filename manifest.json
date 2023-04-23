@@ -3,19 +3,19 @@
     "name": "Dark Souls Data",
     "icons": [
         {
-            "src": "/assets/soul_icon_144.png",
+            "src": "assets/soul_icon_144.png",
             "type": "image/png",
             "sizes": "144x144",
             "purpose": "any"
         },
         {
-            "src": "/assets/soul_icon_192.png",
+            "src": "assets/soul_icon_192.png",
             "type": "image/png",
             "sizes": "192x192",
             "purpose": "any"
         },
         {
-            "src": "/assets/soul_icon_512.png",
+            "src": "assets/soul_icon_512.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "any"
