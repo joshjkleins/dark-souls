@@ -18,14 +18,14 @@
             "src": "assets/soul_icon_512.png",
             "type": "image/png",
             "sizes": "512x512",
-            "purpose": "any maskable"
+            "purpose": "any"
         }
     ],
     "id": "/",
     "start_url": "https://dark-souls-app.netlify.app",
     "background_color": "#263254",
     "display": "fullscreen",
-    "scope": "/",
+    "scope": "https://dark-souls-app.netlify.app",
     "theme_color": "#263254",
     "description": "Dark Souls Games Data"
   }
