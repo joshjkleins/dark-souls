@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import NavBar from './components/NavBar'
-import Steps from './components/Steps'
 import StepOne from './components/StepOne'
 import DarkSoulsThree from './components/DarkSoulsThree'
 import './App.css'
