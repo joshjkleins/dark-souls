@@ -10,7 +10,7 @@ function App() {
     <div>
         {gameChoice == '' && <StepOne choice={setGameChoice} /> }
         {gameChoice == 'Dark Souls 3' && <DarkSoulsThree choice={setGameChoice} />}
-        <button id="butInstall" type="button" className="btn absolute bottom-5 left-5 text-xs hide">Install</button>
+        {/* <button id="butInstall" type="button" className="btn absolute bottom-5 left-5 text-xs hidden">Install</button> */}
     </div>
   )
 }
